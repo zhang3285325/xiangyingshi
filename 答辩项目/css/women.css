@@ -1,0 +1,240 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*导航*/
+.daohang{
+	width: 100%;
+	height: 64px;
+	background-color: rgb(0,0,0);
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 999;
+}
+.daohang .jianjie{
+	margin-left: 300px;
+}
+.daohang .jianjie img{
+	width: 50px;
+	height: 54px;
+	margin-top: 5px;
+}
+.daohang .jianjie p{
+	color: white;
+	margin-top: -45px;
+	margin-left: 60px;
+	font-size: 20px;
+}
+.daohang .qiehuan{
+	margin-left: 1200px;
+	margin-top: -20px;
+}
+.daohang .qiehuan ul li a{
+    color: #e4c17e;
+    text-decoration: none;
+}
+.daohang .qiehuan ul li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+    font-size: 15px;
+    color: rgb(228,193,126);
+}
+.daohang .qiehuan ul li:hover{
+	border-bottom: 5px solid yellow;
+}
+/*轮播*/
+.box{
+    width: 100%;
+    height: 580px;
+    overflow: hidden;
+    position: relative;
+    top:63px;
+}
+.bg{
+   	width: 1000%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.bg li{
+    width: 10%;
+    height: 580px;
+    background: url("../img/1.png") no-repeat center top;
+    float: left;
+    background-size:100%;
+    z-index: 1;
+} 
+.jiantou{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    position: absolute;
+    top:50%;
+    display: none;
+}
+.next{
+    right: 100px;
+}
+.prew{
+    left: 100px;
+}
+.button{
+    width: 169px;
+    margin: 350px auto;
+}
+.button i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    position: relative;
+    border-radius: 10px;
+    float: left;
+    margin-left: 20px;
+    top:150px;
+}
+.on{
+    background: skyblue;
+    border:1px solid yellow;
+}
+.licheng{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.licheng .jj{
+    width: 65%;
+    color: #222;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.licheng .fangshi{
+    width: 35%;
+    margin-left: 1050px;
+    margin-top: -200px;
+}
+.licheng .fangshi h5{
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+.licheng .fangshi .aa{
+    width: 60%;
+    border: 1px solid black;
+}
+.licheng .fangshi .aa p{
+    color: #464646;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.licheng .tuijian{
+    width: 35%;
+    margin-left: 1050px;
+    margin-top: 20px;
+}
+.licheng .tuijian h5{
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+.licheng .tuijian ul{
+    width: 60%;
+    border: 1px solid rgb(221,221,221);
+}
+.licheng .tuijian ul li{
+    list-style: none;
+    color: #464646;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid rgb(221,221,221);
+}
+/*底部*/
+.dibu{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    margin-top: 50px;
+}
+.dibu p{
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 0;
+    color: #848484;
+    font-size: 13px;
+}
+/*底部导航条*/
+.dibutiao{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(87,87,87);
+    margin-top: -60px;
+}
+.dibutiao ul li{
+    margin-left: 50px;
+    list-style: none;
+    float: left;
+    /*display: inline-flex;*/
+    overflow: hidden;
+    margin-top: 1px;
+    padding: 0 5%;
+    text-align: center;
+}
+.dibutiao ul li span{
+    border-radius: 50%;
+    font-family: "zidingyi";
+    background-color: #2da4c7;
+    font-size: 25px;
+    line-height: 2em;
+}
+.dibutiao ul li p{
+    display: inline-block;
+}
+@font-face{
+    font-family: "zidingyi";
+    src: url("fonts/icomoon.eot");
+    src: url("fonts/icomoon.eot?iefix") format("fonts/embedded-opentype"),url("fonts/icomoon.woff") format("woff"),url("fonts/icomoon.ttf") format("'truetype'"),url("fonts/icomoon.svg#zidingyi") format("svg");
+}
+.l1:before{
+    content:"\e902";
+}
+.l2:before{
+    content:"\ea32";
+}
+.l3:before{
+    content:"\ea96";
+}
+.l4:before{
+    content:"\e945";
+}
+.l5:before{
+    content:"\eadb";
+}
+.dibutiao p{
+    font-size: 20px;
+}
+.dibutiao .p1{
+    font-size: 20px;
+}
+/*返回顶部*/
+.fanhui{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(228,193,126);
+    margin-left: 97%;
+    margin-top: -3%;
+    display: none;
+}
+.fanhui .pp{
+    font-family: "zidingyi";
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+.pp:before{
+    content:"\ea32";
+}
